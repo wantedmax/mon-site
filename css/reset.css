@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  background: black;
+  background-image: url("assets/images/bfback.jpg");
+}
+
+h1 {
+  color: grey;
+  height: 45px;
+  background : black;
+  margin: 0;
+}
+
+.topcontainer {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 5px;
+  margin-left: 1300px;
+}
+
+h2 {
+  color: black;
+  background: cyan;
+  margin: 0;
+  padding-top: 10px;
+}
+
+.text {
+  text-align: center;
+  padding-bottom: 10px ;
+  padding-left: 185px;
+  padding-right: 185px;
+  font-family: Tomorrow;
+}
+
+.logobf {
+  display: flex;
+  padding-top: 200px;
+  justify-content: center;
+}
+
+p {
+  color: white;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: larger;
+  padding-right: 450px;
+  padding-left: 450px;
+}
+
+
+/*
+#videofond {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -100;
+}
+#videofond > video {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -100;
+}
+
+@media (min-aspect-ratio: 16/9) {
+  #videofond > video {
+    height: 300%;
+    top: -100%;
+    z-index: -100;
+  }
+}
+@media (max-aspect-ratio: 16/9) {
+  #videofond > video {
+    width: 300%;
+    left: -100%;
+    z-index: -100;
+  }
+}
+
+@supports (object-fit: cover) {
+  #videofond > video {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: -100;
+  }
+}
+*/
+
+.btn {
+  display: block;
+  color: white;
+  padding: 12px;
+  width: 150px;
+  border-radius: 8px;
+  border: solid 3px cyan;
+  line-height: 35px;
+  text-align: center;
+  background: cyan;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+.btn-cyan {
+  color: black;
+  font-family: Roboto;
+  font-weight: bold;
+}
+
+@media (max-device-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 1370px;
+  }
+}
